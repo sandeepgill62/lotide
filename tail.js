@@ -1,4 +1,3 @@
-var _ = require('lodash');
 
 // FUNCTION IMPLEMENTATION
 const assertEqual = function (actual, expected) {
@@ -10,13 +9,9 @@ const assertEqual = function (actual, expected) {
 };
 
 const tail = function (arr) {
-  var tailArr = _.tail(arr);
+  var tailArr = arr.slice(1);
   return tailArr;
 }
-
-// assertEqual(head([5, 6, 7]), 5);
-// assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
-// assertEqual(head([]), 3);
 
 var result = tail(["Hello", "Lighthouse", "Labs"]);
 assertEqual(result.length, 2); // ensure we get back two elements
