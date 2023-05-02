@@ -6,11 +6,11 @@ const assertEqual = function (actual, expected) {
   if (actual === expected)
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
   else
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual}`);
+    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
 };
 
 const head = function (arr) {
-  var h = _.head(arr);
+  var h = arr[0]
   return h;
 }
 
