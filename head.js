@@ -1,4 +1,3 @@
-var _ = require('lodash');
 
 // FUNCTION IMPLEMENTATION
 const assertEqual = function (actual, expected) {
