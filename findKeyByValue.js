@@ -12,6 +12,7 @@ const bestTVShowsByGenre = {
   drama: "The Wire"
 };
 
+//or we can use Object.keys too
 const findKeyByValue = function (object, value) {
   var result;
   for (const key in object) {

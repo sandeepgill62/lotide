@@ -1,3 +1,5 @@
+// assertEqual.js
+
 // FUNCTION IMPLEMENTATION
 const assertEqual = function(actual, expected) {
 
@@ -7,8 +9,5 @@ const assertEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
 };
 
-// TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual("hello", "hello");
-assertEqual(1, 1);
-assertEqual(11, 22);
+//export
+module.exports = assertEqual;
