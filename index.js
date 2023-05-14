@@ -4,11 +4,22 @@ const head   = require('./head');
 const tail   = require('./tail');
 const middle = require('./middle');
 
-module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle
-};
+module.exports = { head, tail, middle };
+
+
+// module.exports = {
+//   head:   head,
+//   tail:   tail,
+//   middle: middle
+// };
+
+let name = 'John Doe'
+let email = 'john.doe@example.com'
+let age = 25
+
+let user = { name, email, age }
+
+console.log(user)
 
 // // Example 1
 // // Can export a number (not common, but JS won't stop me!)
@@ -26,3 +37,10 @@ module.exports = {
 // module.exports = function() {
 //   return "developers, developers, developers!"; 
 // }
+
+// const age = 33;
+
+// const person = {
+//   name: 'Pat',
+//   age
+// };
