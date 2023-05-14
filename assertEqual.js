@@ -1,6 +1,5 @@
 // assertEqual.js
 
-// FUNCTION IMPLEMENTATION
 const assertEqual = function(actual, expected) {
 
   if(actual === expected)
