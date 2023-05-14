@@ -1,5 +1,5 @@
 
-// test/assertEqualTest.js
+// test/headTest.js
 
 const assertEqual = require('../assertEqual');
 const head = require('../head');
