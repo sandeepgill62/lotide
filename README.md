@@ -40,4 +40,6 @@ The following functions are currently implemented:
 * `findKeyByValue(object, value)`: This function which takes in an object and a value. It should scan the object and return the first key which contains the given value. If no key with that given value is found, then it should return undefined.
 * `eqObjects(object1, object2)`: This function which will take in two objects and returns true or false, based on a perfect match.
 * `assertObjectsEqual(actual, expected)`: This function which will take in two objects and console.log an appropriate message to the console.
-* `map(array, callback)`: This function which will take in array and callback function. This function will provide the result with array according to callback function definition.   
+* `map(array, callback)`: This function which will take in array and callback function. This function will provide the result with array according to callback function definition. 
+* `findKey(object, callback)`: This function which will take in obejct and callback function. This function will provide the result with object according to callback function definition. 
+* `takeUntil(array, callback)`: This function which will take in array and callback function. Each array element will check callback function if condition meets according to values.  
